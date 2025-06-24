@@ -118,8 +118,8 @@ def encode_message():
 
     encoded_array = encode_matrix(img_array, text)
     encoded_image = Image.fromarray(encoded_array.astype('uint8'))
-    encoded_image.save("encoded_gui_output.png")
-    messagebox.showinfo("Success", "Message encoded and saved as encoded_gui_output.png")
+    encoded_image.save("encoded_output.png")
+    messagebox.showinfo("Success", "Message encoded and saved as encoded_output.png")
     
 def decode_message():
     global img_array
