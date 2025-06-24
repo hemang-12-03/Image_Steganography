@@ -79,7 +79,7 @@ def binary_to_text(binary):
 # GUI Setup 
 
 root = tk.Tk()
-root.title("Image Steganography - RGB ASCII")
+root.title("Image Steganography")
 root.geometry("600x500")
 root.resizable(False, False)
 
